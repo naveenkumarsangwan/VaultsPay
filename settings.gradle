@@ -1,0 +1,3 @@
+include ':valutsPayLibrary'
+include ':app'
+rootProject.name = "VaultsPay"
