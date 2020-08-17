@@ -21,6 +21,5 @@ public class MainActivity extends AppCompatActivity {
         List<RssItem> list = RssFeedProvider
                 .parse(uri);
         String itemListAsString = list.toString();
-        listener.onRssItemSelected(itemListAsString);
     }
 }
